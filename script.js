@@ -79,7 +79,7 @@ document.getElementById("modal_yes_btn").addEventListener("click", () => {
     document.getElementById("delete_modal").style.display = "none";
 
 })
-document.getElementById("modal_no_btn").addEventListener("click", () => {
-    document.getElementById("delete_modal").style.display = "none";
 
-})
+function modal_no_btn() {
+    document.getElementById("delete_modal").style.display = "none";
+}
